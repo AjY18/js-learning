@@ -40,6 +40,11 @@ console.log(Math.random()*10);
 console.log(Math.random()*10 +1);
  // some times random*10 give us a value in 0.543534 random number which is 0.somthing so avoid this situation we add a 1. it's help our values are always in 1 to 9 range.
 
- const max=10
- const min=34
+ const max=34
+ const min=10
 console.log(Math.floor(Math.random()* (max-min +1))+min)
+// floor set a value which one we get form the (Math.random()* (max-min +1))+min) Math.random chouse a random value 0 to 1 and 
+//*max- min help we get a value under max and min value mean here we get under 10 to 34 and
+// +1 help we avoid a 0 case if we get and 
+//+min help we get a minimum range of value see here we have 10 minimum so we get a answer up to 10 to 34
+//and endly floor set a value if we get value 15.865 so we get 15
