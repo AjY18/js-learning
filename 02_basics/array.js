@@ -44,10 +44,10 @@ console.log(two);
 //
 const marval_hero =["spiderman","ironman","thor"];
 const dc_hero =["batman","flash","superman"];
-//marval_hero.push(dc_hero); //push help we can push a dc_hero array in marval_hero array this is not a good way to concatinate a two arryas
+marval_hero.push(dc_hero); //push help we can push a dc_hero array in marval_hero array this is not a good way to concatinate a two arryas
 
-//const all_hero = marval_hero.concat(dc_hero)
-//console.log(all_hero);
+const all_hero = marval_hero.concat(dc_hero)
+console.log(all_hero);
 
 
 //spread is easy way to add two arrays
