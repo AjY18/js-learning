@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color: #212121; color:white;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+    </div>
+
+    <script>
+      const val=  document.querySelector(".parent")
+    //   console.log(val);
+        // console.log(val.children);
+        // console.log(val.children[0].innerHTML);
+        // for(let i=0;i<val.children.length;i++){
+        //     console.log(val.children[i].innerHTML);
+        // }
+val.children[1].style.color="orange";
+
+        const days= document.querySelector(".day")
+            console.log(days.parentElement);
+            console.log(days.nextElementSibling)
+
+            //discuss about child nodes
+            console.log("Nodes :",val.childNodes); //9
+    </script>
+</body>
+</html>

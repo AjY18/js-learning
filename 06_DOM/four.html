@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color: #212121; color: rgb(255, 255, 255)">
+    <ul class="language">
+        <li>java Script</li>
+    
+    </ul>
+    
+</body>
+
+<script>
+    function addLanguage(langName){
+      const li=  document.createElement('li');
+      li.innerHTML=`${langName}`
+      document.querySelector('.language').appendChild(li)
+    }
+    addLanguage('python')
+    addLanguage('typeScript')
+    addLanguage('java')
+
+ function addOtiLanguage(langName){
+    const li=document.createElement('li');
+    li.appendChild(document.createTextNode(langName))
+    document.querySelector('.language').appendChild(li)
+ }
+ addOtiLanguage('golang')
+ addOtiLanguage('c++')
+
+ //edit value
+const Seclang = document.querySelector("li:nth-child(2)")
+// Seclang.innerHTML="HTML"
+const newli = document.createElement('li')
+newli.textContent = "Html"
+Seclang.replaceWith(newli)//replace
+
+//edit 
+const forthlang = document.querySelector("li:first-child")
+forthlang.outerHTML='<li> rust</li>'
+
+//remove
+const lasLang =document.querySelector('li:last-child')
+lasLang.remove()
+
+const laLang =document.querySelector('li:nth-child(4)')
+laLang.remove()
+
+</script>
+</html>
