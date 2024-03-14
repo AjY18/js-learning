@@ -29,7 +29,7 @@ button.addEventListener('click', (Eve)=>{
   else if(Eve.target.id === 'yellow'){
     body.style.backgroundColor =Eve.target.id;
   }
-  if(Eve.target.id ==='purple'){
+  else if(Eve.target.id ==='purple'){
     body.style.backgroundColor = Eve.target.id;
   }
 });
