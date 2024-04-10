@@ -2,7 +2,7 @@
 
 ##project link
 [click here]
-(https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+(https://stackblitz.com/edit/dom-project-chaiaurcode-qngy2r?file=index.html)
 
 # solution code
 
