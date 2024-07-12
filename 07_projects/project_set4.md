@@ -6,10 +6,10 @@
 
 # solution code
 
-## project 3
+## project 4
 
 ```java script
-
+//keyboard check
 const insert  = document.getElementById('insert')
 
 window.addEventListener('keydown',(e)=>{
