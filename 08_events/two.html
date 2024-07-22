@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1> Let's go</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayAjay = function(){
+        console.log("ajay");
+    }
+    const BestDev = function(){
+        document.querySelector('h1').innerHTML="I am ajay";
+
+    }
+    const ht = setTimeout(BestDev,2000);
+    document.querySelector('#stop').addEventListener('click',function(){
+clearTimeout(ht);
+console.log("stoped");
+    })
+</script>
+</html>
